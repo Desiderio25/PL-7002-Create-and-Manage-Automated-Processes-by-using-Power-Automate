@@ -51,27 +51,35 @@ In this lab you will create a button flow.
 
 1. Select the **Manually trigger a flow** step.
 
-1. Select **Add an input**.
+1. Select **+ Add an input**.
 
 1. Select **Text**.
 
-1. Enter `Customer Name` in **Input**.
+1. Enter `Customer Name` in **Input name**.
 
-1. Enter `Please enter the customer name` in **Please enter your input**.
+1. Select **+ Add an input**.
+
+1. Select **Text**
+
+1. Enter `Please enter the customer name` in **Input name**..
 
 1. Select **Add an input**.
 
 1. Select **Text**
 
-1. Enter `Comments` in **Input**.
+1. Enter `Comments` in **Input name**..
 
-1. Enter `Any comments` in **Please enter your input**.
+1. Select **Add an input**.
+
+1. Select **Text**
+
+1. Enter `Any comments` in **Input name**..
 
 1. Select **Add an input**.
 
 1. Select **Number**
 
-1. Enter `Potential Sale` in **Number**.
+1. Enter `Potential Sale` in **Input number**
 
     ![Screenshot of user input.](../media/user-input.png)
 
