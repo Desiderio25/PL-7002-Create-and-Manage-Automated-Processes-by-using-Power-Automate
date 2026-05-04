@@ -153,17 +153,28 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow step parameters.](../media/flow-step-parameters.png)
 
+1. Select the **Send an email** step.
+
+1. In the **Body** field, delete the existing content.
+
+1. Select the **dynamic value** icon or enter `/` to **Insert dynamic content**.
+
+1. In the search field, enter `daily summary`.
+
+1. Select **Day Summary**.
+
 1. Select **Save**.
 
-1. If an error is displayed for the *shared_msnweather* connection, select the icon in the bottom-right of the **Get forecast for today** action, select **Change connection reference**, select **Add new**, select **Create new**, and select **Save**.
+> [!NOTE]
+> If an error with status code **"Forbidden"** and details **"ConnectionAuthorizationFailed"** appears after saving, complete steps 10–13 to create new connections. If no error appears, skip to step 14.
 
-    ![Screenshot of Get forecast for today action.](../media/msn-connection.png)
+10. Select the **Get forecast for today** action, select **Change connection reference**, select **Add new**, and select **Create new**.
 
-1. If an error is displayed for the *shared_office365users* connection, select the icon in the bottom-right of the **Get my profile** action, select **Change connection reference**, select **Add new**, select **Sign in**, and select **Save**.
+1. Select the **Get my profile** action, select **Change connection reference**, select **Add new**, and select **Sign in**.
 
-1. If an error is displayed for the *shared_office365* connection, select the icon in the bottom-right of the **Send an email** action, select **Change connection reference**, select **Add new**, select **Sign in**, and select **Save**.
+1. Select the **Send an email** action, select **Change connection reference**, select **Add new**, and select **Sign in**.
 
-1. If still have errors with the connections, select the **<-** Back button from the top left of the command bar and restart this exercise.
+1. After creating the new connections for each action, select **Save**.
 
 1. To test the flow, select **Test**, select **Manually**, and then select **Test**.
 
