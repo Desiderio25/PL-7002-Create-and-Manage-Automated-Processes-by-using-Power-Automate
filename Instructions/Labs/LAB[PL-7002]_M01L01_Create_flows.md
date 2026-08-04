@@ -42,11 +42,11 @@ In this lab you will create cloud flows.
 
     ![Environment selector in Power Automate.](../media/select-dev-one-environment-power-automate.png)
 
-1. Select the **Templates** tab from the left-side menu.
+1. Select **Templates** from the left-side menu.
 
 1. Select the **Button** tab.
 
-1. Enter `location` in the **Search templates** field.
+1. Enter `location` in the **Search templates** field and press **Enter**.
 
     ![Screenshot of flow templates.](../media/flow-templates.png)
 
@@ -72,16 +72,16 @@ In this lab you will create cloud flows.
 
     ![Screenshot of location popup.](../media/allow-location.png)
 
-   > [!NOTE]
-   > If the error *Location services must be enabled to run this flow* is shown, in the machine's **Settings -> Privacy & security -> Location**, enable **Location services** and **Enable Let apps access your location**.
+> [!NOTE]
+> If the error *Location services must be enabled to run this flow* is shown, in the machine's **Settings -> Privacy & security -> Location**, enable **Location services** and **Enable Let apps access your location**.
 
-1. Select **Continue**.
+3. Select **Continue**.
 
 1. Select **Run flow**.
 
 1. Select **Done**.
 
-1. Wait for the flow to complete.
+1. Wait for the flow to complete. You should see the **Succeeded** status in the flow run history.
 
     ![Screenshot of flow run history.](../media/flow-run-history.png)
 
@@ -99,17 +99,17 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow run step output.](../media/flow-run-step.png)
 
-1. Select **Edit** and expand the flow steps.
+1. Select **Edit**, then expand the **Condition** action and both the **True** and **False** branches to view its actions.
 
 1. Select one of the **Send a push notification** steps.
 
-1. Select **Flow checker**. There should be no errors or warnings.
+1. Select the **Flow checker** icon next to **Save**. There should be no errors or warnings.
 
 1. Close the **Flow checker** pane.
 
 ### Task 1.4 - Test the flow
 
-1. Select **Test**, select **Automatically**, select **With a recently used trigger**, and then select the flow run.
+1. Select **Test**, select **Automatically** and then select **With a recently used trigger**. Select the **Succeeded** flow run.
 
     ![Screenshot of test flow with recently used trigger.](../media/test-flow.png)
 
@@ -125,7 +125,7 @@ In this lab you will create cloud flows.
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **Home** tab from the left-side menu.
+1. Select **Home** from the left-side menu.
 
 1. Under **Create your automation with Copilot** enter `Every day send me an email with the daily summary from MSN Weather`
 
@@ -145,7 +145,7 @@ In this lab you will create cloud flows.
 
 ### Task 2.2 - Configure flow step
 
-1. Select the **Get Forecast for today** step.
+1. Select the **Get forecast for today** step.
 
 1. Enter `Seattle` for **Location**.
 
@@ -168,11 +168,11 @@ In this lab you will create cloud flows.
 > [!NOTE]
 > If an error with status code **"Forbidden"** and details **"ConnectionAuthorizationFailed"** appears after saving, complete steps 10–13 to create new connections. If no error appears, skip to step 14.
 
-10. Select the **Get forecast for today** action, select **Change connection reference**, select **Add new**, and select **Create new**.
+10. Select the **Get forecast for today** action, select **Change connection reference**, select **Add new**, and then select **Create new**.
 
-1. Select the **Get my profile** action, select **Change connection reference**, select **Add new**, and select **Sign in**.
+1. Select the **Get my profile** action, select **Change connection reference**, select **Add new**, and then select **Sign in**. Sign in using the tenant credentials from the Authorized Lab Host.
 
-1. Select the **Send an email** action, select **Change connection reference**, select **Add new**, and select **Sign in**.
+1. Select the **Send an email** action, select **Change connection reference**, select **Add new**, and then select **Sign in**. Sign in using the tenant credentials from the Authorized Lab Host.
 
 1. After creating the new connections for each action, select **Save**.
 
@@ -190,7 +190,7 @@ In this lab you will create cloud flows.
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left-side menu.
+1. Select **+ Create** from the left-side menu.
 
 1. Select **Automated cloud flow**.
 
@@ -224,7 +224,7 @@ In this lab you will create cloud flows.
 
 1. If prompted, select **Allow** for **See text and images copied to clipboard**.
 
-1. Enter `post message` in search.
+1. Enter `post message` in the search field.
 
     ![Screenshot of action search.](../media/search-action.png)
 
@@ -262,7 +262,7 @@ In this lab you will create cloud flows.
 
     ![Screenshot of more options for Power Automate portal.](../media/power-automate-menu.png)
 
-1. Select **Discover all** and search for **Cloud flow activity** under Monitor section.
+1. Select **Discover all** and search for **Cloud flow activity** under the **Monitor** section.
 
     ![Screenshot of more options for Power Automate portal.](../media/discover-cloud-flow-activity.png)
 
