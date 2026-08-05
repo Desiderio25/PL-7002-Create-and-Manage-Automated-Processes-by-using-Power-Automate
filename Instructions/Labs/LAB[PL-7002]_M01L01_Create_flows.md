@@ -95,13 +95,13 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow run detail.](../media/flow-run-collapsed.png)
 
-1. Select the **Get forecast for today** step with the green tick.
+1. Select the **Get forecast for today** action with the green tick.
 
     ![Screenshot of flow run step output.](../media/flow-run-step.png)
 
 1. Select **Edit**, then expand the **Condition** action and both the **True** and **False** branches to view its actions.
 
-1. Select one of the **Send a push notification** steps.
+1. Select one of the **Send a push notification** actions.
 
 1. Select the **Flow checker** icon next to **Save**. There should be no errors or warnings.
 
@@ -143,9 +143,9 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow created by Copilot.](../media/copilot-flow.png)
 
-### Task 2.2 - Configure flow step
+### Task 2.2 - Configure flow actions
 
-1. Select the **Get forecast for today** step.
+1. Select the **Get forecast for today** action.
 
 1. Enter `Seattle` for **Location**.
 
@@ -153,7 +153,7 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow step parameters.](../media/flow-step-parameters.png)
 
-1. Select the **Send an email** step.
+1. Select the **Send an email** action.
 
 1. In the **Body** field, delete the existing content.
 
@@ -206,7 +206,7 @@ In this lab you will create cloud flows.
 
 ### Task 3.2 - Configure the trigger
 
-1. Select the **When a new email arrives (V3)** step.
+1. Select the **When a new email arrives (V3)** action.
 
 1. Select **Show all**.
 
@@ -220,7 +220,7 @@ In this lab you will create cloud flows.
 
 ### Task 3.3 - Add an action
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger and select **Add an action**.
 
 1. If prompted, select **Allow** for **See text and images copied to clipboard**.
 
