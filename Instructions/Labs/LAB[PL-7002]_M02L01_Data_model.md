@@ -205,7 +205,7 @@ In this lab you will create Dataverse tables and columns.
    1. Amount: `25,000`
    1. Opportunity Status: **New**
 
-1. Select **Insert row below** then enter and select the following values:
+1. Select **Insert row below**, then enter and select the following values:
 
    1. Opportunity Subject: `Repeat customer`
    1. Owner Name: `MOD Administrator`

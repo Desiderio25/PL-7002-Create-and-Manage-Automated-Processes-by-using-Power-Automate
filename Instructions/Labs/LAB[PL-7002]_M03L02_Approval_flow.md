@@ -43,7 +43,7 @@ In this lab you will create an approval flow.
 
 1. Enter `Task approval` for **Flow name**.
 
-1. Enter `SharePoint` in Search all triggers box.
+1. Enter `SharePoint` in **Search all triggers** box.
 
 1. Select **When an item is created**.
 
